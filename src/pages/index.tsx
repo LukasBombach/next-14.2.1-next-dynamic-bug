@@ -1,6 +1,6 @@
 import dynamic from "next/dynamic";
 
-const DynamicTest = dynamic(() => import("../components/Test").then((mod) => mod.DynamicTest), {
+const DynamicTest = dynamic(() => import("../components/DynamicTest").then((mod) => mod.DynamicTest), {
   loading: () => <div>Loading</div>,
 });
 
