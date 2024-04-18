@@ -6,6 +6,8 @@ Reproducible example to show that using `next/dynamic` breaks when used with a s
 
 When you use `next/dynamic` with babel and a src folder, you will get a hydration mismatch when opening your page.
 
+![](./error.png)
+
 ## Steps to reproduce
 
 ```
