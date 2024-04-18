@@ -7,7 +7,6 @@ const DynamicTest = dynamic(() => import("../components/DynamicTest").then((mod)
 export default function Page() {
   return (
     <main>
-      <h1>Hello, Next.js!</h1>
       <DynamicTest />
     </main>
   );

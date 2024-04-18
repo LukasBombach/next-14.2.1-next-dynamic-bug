@@ -1,3 +1,3 @@
 export const DynamicTest = () => {
-  return <div>dynamic</div>;
+  return <div>Dynamic Content</div>;
 };
